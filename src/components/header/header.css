@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  height: 140vh;
   padding-top: 2rem;
   overflow: hidden;
 }
@@ -42,8 +42,8 @@ header {
 
 .me {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
-  height: 100rem;
+  width: 20rem;
+  /* height: 100rem; */
   position: absolute;
   left: calc(50% - 11rem);
   margin-top: 4rem;
@@ -60,9 +60,6 @@ header {
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
-}
-.arrow__down {
-  margin-top: 6px;
 }
 
 /* ---------------------MEDIA QUERY FOR MEDIUM DEVICES---------------- */
