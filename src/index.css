@@ -1,7 +1,5 @@
-/* a link for fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
-
-/* for whole page default styling */
+/* Resetting the default styles */
 * {
   margin: 0;
   padding: 0;
@@ -12,29 +10,26 @@
   text-decoration: none;
 }
 
-/* made global variables for whole projects*/
+/* CSS Global Variables so they can be used anywhere*/
 :root {
   --color-bg: #1f1f38;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 225, 0.4);
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
-  --color-light: rgba(225, 225, 225, 0.6);
+  --color-light: rgba(255, 255, 255, 0.6);
 
-  /* container variables */
+  --transition: all 400ms ease;
+
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
-
-  --transition: all 400ms ease;
 }
 
-/* for making a page smooth */
 html {
   scroll-behavior: smooth;
 }
 
-/* not showing scrollbar */
 ::-webkit-scrollbar {
   display: none;
 }
@@ -44,10 +39,10 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  /* background-image: ; */
+  /* Background-image needs to be added */
 }
 
-/* ----------------GENERAL STYLING FOR WHOLE PROJECT------------ */
+/* =========================GENERAL STYLES============================ */
 
 .container {
   width: var(--container-width-lg);
@@ -67,7 +62,6 @@ h1 {
 }
 section {
   margin-top: 8rem;
-  height: 100vh;
 }
 
 section > h2,
@@ -122,7 +116,7 @@ img {
   object-fit: cover;
 }
 
-/* ---------------MEDIA QUERY FOR MEDIUM DEVICES---------------- */
+/* =========================MEDIA QUERY FOR TABLETS========================== */
 
 @media screen and (max-width: 1024px) {
   .container {
@@ -133,7 +127,7 @@ img {
   }
 }
 
-/* ----------------MEDIA QUERY FOR SMALL DEVICES-------------- */
+/* =========================MEDIA QUERY FOR PHONES========================== */
 
 @media screen and (max-width: 600px) {
   .container {

@@ -22,11 +22,10 @@ nav a {
   color: var(--color-light);
   font-size: 1.1rem;
 }
-
 nav a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(250, 248, 248, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
 }
-
 nav a.active {
   background: var(--color-primary);
   color: var(--color-bg);
